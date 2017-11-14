@@ -1,25 +1,8 @@
 import React, { Component } from "react";
 import Typist from "react-typist";
-// import 'antd/lib/notification/style/css';
 import { notification } from "antd";
 import "./App.css";
 
-const openNotification = type => {
-  // console.log('notice')
-  notification.open({
-    message: "Market Insight",
-    placement: "topRight",
-    icon: (
-      <img
-        style={{ height: "35px" }}
-        src="http://www.cloudselect.tech/wp-content/uploads/2017/11/CS_logo.png"
-      />
-    ),
-    duration: 5,
-    description:
-      "This is the content of the notification. This is the content of the notification. This is the content of the notification."
-  });
-};
 
 class App extends Component {
   render() {
